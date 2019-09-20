@@ -1,0 +1,34 @@
+  <zone_data>
+    <zone>
+      <optional_properties>
+        <property name="tend">3.15e17</property>
+        <property name="tau">3.15e17</property>
+        <property name="munuekT">-3.15e17</property>
+        <property name="t9_0">0.015</property>
+        <property name="steps">2</property>
+        <property name="rho_0">1.5e2</property>
+      </optional_properties>
+      <mass_fractions>
+      <nuclide name="h1">
+        <z>1</z>
+        <a>1</a>
+        <x>0.71</x>
+      </nuclide>
+      <nuclide name="he4">
+        <z>2</z>
+        <a>4</a>
+        <x>0.27</x>
+      </nuclide>
+      <nuclide name="o16">
+        <z>8</z>
+        <a>16</a>
+        <x>0.015</x>
+      </nuclide>
+        <nuclide name="c12">
+        <z>6</z>
+        <a>12</a>
+        <x>0.005</x>
+      </nuclide>
+      </mass_fractions>
+    </zone>
+  </zone_data>

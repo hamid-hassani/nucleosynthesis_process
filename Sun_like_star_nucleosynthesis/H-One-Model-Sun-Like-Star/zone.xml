@@ -1,0 +1,21 @@
+<zone_data>
+  <zone>
+    <optional_properties>
+      <property name="tend">1.44e17</property>
+      <property name="tau">inf</property> // Time evolution
+      <property name="munuekT">-inf</property>
+      <property name="t9_0">0.01548</property> // Temperature * 10 ^ 9 
+      <property name="steps">2</property> // Data Step
+      <property name="rho_0">1.505e2</property> //  Density e2
+      <property name="use screening">yes</property> // Electron Screening
+    <property name="use nse correction">yes</property> // Nuclear Statistical Correction
+    </optional_properties>
+    <mass_fractions>
+      <nuclide name="h1">
+        <z>1</z>
+        <a>1</a>
+        <x>1</x>
+      </nuclide>
+    </mass_fractions>
+  </zone>
+</zone_data>

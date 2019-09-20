@@ -1,0 +1,10 @@
+time(s) = 3.1500e+17  t9 = 0.0150  rho(g/cc) = 1.5000e+02  Ye = 0.5864
+
+                                                               Screened Rates                Unscreened Rates
+
+                                     Reaction             Forward Rate   Reverse Rate  Forward Rate   Reverse Rate
+
+=======================================================   ============   ============  ============   ============
+
+h1 + h1 + electron -> h2 + neutrino_e                     4.58822e-22    0.00000e+00   4.33812e-22    0.00000e+00
+h1 + h1 -> h2 + positron + neutrino_e                     1.28575e-17    0.00000e+00   1.21566e-17    0.00000e+00

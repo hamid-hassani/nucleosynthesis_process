@@ -1,0 +1,41 @@
+Hamid:xml hamidhassani_ir$ ../../nucnet-tools-code/libnucnet/print_rates_at_t9 o16-ag-ne20-nacr.xml  0.5
+
+        Reaction      Rate
+========================================================= ============
+he4 + o16 -> ne20 + gamma                                 1.996368e-07
+
+Hamid:xml hamidhassani_ir$ ../../nucnet-tools-code/libnucnet/print_rates_at_t9 o16-ag-ne20-nacr.xml  1
+
+        Reaction      Rate
+========================================================= ============
+he4 + o16 -> ne20 + gamma                                 4.645657e-03
+
+Hamid:xml hamidhassani_ir$ ../../nucnet-tools-code/libnucnet/print_rates_at_t9 o16-ag-ne20-nacr.xml  2
+
+        Reaction      Rate
+========================================================= ============
+he4 + o16 -> ne20 + gamma                                 5.883579e-01
+
+Hamid:xml hamidhassani_ir$ ../../nucnet-tools-code/libnucnet/print_rates_at_t9 o16-ag-ne20-nacr.xml  3
+
+        Reaction      Rate
+========================================================= ============
+he4 + o16 -> ne20 + gamma                                 2.562446e+00
+
+Hamid:xml hamidhassani_ir$ ../../nucnet-tools-code/libnucnet/print_rates_at_t9 o16-ag-ne20-nacr.xml  4
+
+        Reaction      Rate
+========================================================= ============
+he4 + o16 -> ne20 + gamma                                 5.412948e+00
+
+Hamid:xml hamidhassani_ir$ ../../nucnet-tools-code/libnucnet/print_rates_at_t9 o16-ag-ne20-nacr.xml  5
+
+        Reaction      Rate
+========================================================= ============
+he4 + o16 -> ne20 + gamma                                 9.594212e+00
+
+Hamid:xml hamidhassani_ir$ ../../nucnet-tools-code/libnucnet/print_rates_at_t9 o16-ag-ne20-nacr.xml  6
+
+        Reaction      Rate
+========================================================= ============
+he4 + o16 -> ne20 + gamma                                 1.689608e+01
