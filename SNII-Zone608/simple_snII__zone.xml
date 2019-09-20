@@ -1,0 +1,86 @@
+<zone_data
+  xmlns:xi="http://www.w3.org/2001/XInclude"
+>
+  <zone>
+    <optional_properties>
+      <property name="time">0.</property>
+      <property name="dt">1.e-5</property>
+      <property name="tend">1.e6</property>
+      <property name="munuekT">-inf</property>
+      <property name="steps">1</property>
+      <property name="solver">Arrow</property>
+      <property name="Arrow width">3</property>
+
+<!-- Name of integrated currents xml file.  Note that the path is relative to
+     the executable.  Uncomment and edit to create this output. -->
+
+<!--
+      <property
+        name="flow current xml file"
+      >currents.xml</property>
+-->
+
+<!-- Name of updated rates xml file.  Note that the path is relative to
+     the executable.  Uncomment and edit to use the appropriate file. -->
+
+<!--
+      <property
+        name="updated rates xml file"
+      >../nucnet-tools-code/data_pub/n15_study_rates.xml</property>
+-->
+
+<!-- Neutrino rates xml files.  Note that the path of the rates file
+     is relative to the executable while the path of the include file
+     is relative to this file.  Uncomment and edit zone_nu_include.xml
+     to use. -->
+
+<!--
+      <property
+        name="neutrino rates file"
+      >../nucnet-tools-code/data_pub/nu.xml</property>
+
+
+      <xi:include
+        href="zone_nu_include.xml" xpointer="xpointer(//property)"
+      />
+--> 
+   
+<!-- Reaction rate modification view.  In the example below, the nuclide
+     xpath expression selects out isotopes of elements with Z <= 8 and 
+     the reaction xpath expression selects out the (p,gamma) reactions.  
+     The forward and reverse rates of all valid reactions in this
+     particular view are multiplied by a factor of 10 at all temperatures.    
+     Uncomment and edit the view as needed to select out the reactions of
+     interest.  Copy and paste the view to create multiple views,
+     but be sure to label each distinct view with a different tag2.
+     See the blog post
+
+     http://sourceforge.net/u/mbradle/blog/2013/02/modifying-reaction-rates-during-network-calculation/
+
+     for more details.-->
+
+<!-- 
+     <property
+        name = "nuclide xpath"
+        tag1 = "rate modification view"
+        tag2 = "1"
+      >[z &lt;= 8]</property>
+
+      <property
+        name = "reaction xpath"
+        tag1 = "rate modification view"
+        tag2 = "1"
+      >[reactant = 'h1' and product = 'gamma']</property>
+
+      <property
+        name = "factor"
+        tag1 = "rate modification view"
+        tag2 = "1"
+      >10.</property>
+-->
+   
+    </optional_properties>
+
+    <mass_fractions/>
+  </zone>
+</zone_data>
